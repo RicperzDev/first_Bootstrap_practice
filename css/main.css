@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.nav-item > a {
+    font-size: 18px;
+    color: #7a7878;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+form > button {
+    width: 200px;
+    font-weight: bold !important;
+    transition: 0.2s;
+}
+
+.carousel-inner {
+    max-height: 650px;
+}
+
+.service-img {
+    display: block;
+    width: 150px;
+}
+
+.service-container {
+    border-radius: 5px;
+    border: 1px solid #d4d2d2;
+}
+
+
+
+@media screen and (width: 1440px) {
+    #intro, #about-us {
+        width: 70%;
+    }
+}
+
+#description > h2{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 991px) {
+    #description {
+        text-align: center !important;
+    }
+
+    #random-data {
+        justify-content: center !important;
+    }
+}
+
+#address {
+    background: #f3f3f3;
+}
